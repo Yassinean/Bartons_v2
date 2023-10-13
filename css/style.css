@@ -1,0 +1,607 @@
+@import url("https://fonts.googleapis.com/css2?family=Irish+Grover&family=Rubik:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 100%;
+}
+/*------ navbar ------*/
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 103px;
+  background-image: linear-gradient(black, transparent);
+}
+
+.active {
+  color: #795256;
+  border-bottom: 2px solid #903711;
+}
+.navigation ul li a:hover {
+  color: #795256;
+  border-bottom: 2px solid #903711;
+  transition: 0.5s ease;
+}
+.header1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 103px;
+  background-color: #b77e66;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  margin: 30px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/*------ end navbar ------*/
+
+/*--- page contact ------*/
+
+.mainimg1 {
+  background-image: url(../images/background.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  padding: 45px;
+  text-align: center;
+  color: #b77e66;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.sec1 {
+  float: right;
+  margin-right: 10%;
+}
+form {
+  background: rgba(86, 26, 0, 0.71);
+  border-radius: 21px;
+  align-items: center;
+  padding: 5% 15%;
+  width: 510px;
+  margin-top: 10%;
+  height: auto;
+}
+
+.input {
+  width: 391px;
+  height: 51px;
+  border-radius: 15px;
+  background: #b77e66;
+  margin: 20px 0px;
+  color: aliceblue;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+
+::placeholder {
+  color: white !important;
+}
+/*------ button formulaire ------*/
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 175px;
+  height: 51px;
+  font-weight: 600;
+  border-radius: 21px;
+  background: #b77e66;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #b77e66;
+  background: #d5b28c;
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+/*--- end button ------*/
+/*------ end page contact ------*/
+
+/*------ landing page ------*/
+/*--- section 1 ---*/
+.mainimg {
+  background-image: url(/images/background_main.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.mainimg h2 {
+  position: absolute;
+  width: 621px;
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  top: 35%;
+  left: 15%;
+}
+
+.mainimg p {
+  color: #fff;
+  position: absolute;
+  width: 643px;
+  font-size: 22px;
+  top: 58%;
+  left: 15%;
+}
+
+.btnMain {
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  width: 300px;
+  height: 5.5rem;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  background: #b77e66;
+  cursor: pointer;
+}
+
+.btnMain:hover {
+  color: #b77e66;
+  background: #d5b28c;
+  transition: 0.5s ease-in-out;
+}
+/*--- end section 1 ---*/
+/*--- section 2 ---*/
+.secondSec {
+  background-image: url(/images/sect2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0%;
+  height: 80vh;
+  position: relative;
+}
+
+.secondSec h3 {
+  color: #471e22;
+  font-size: 35px;
+  font-weight: 600;
+  position: absolute;
+  top: 30%;
+  right: 10%;
+}
+
+.secondSec p {
+  width: 469px;
+  height: 72px;
+  color: #533b2f;
+  font-size: 21px;
+  font-weight: 400;
+  position: absolute;
+  top: 45%;
+  right: 13%;
+}
+
+.btn-Sec-2 {
+  position: absolute;
+  top: 60%;
+  right: 13%;
+  width: 180px;
+  height: 44px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  background: #b77e66;
+  cursor: pointer;
+}
+
+.btn-Sec-2:hover {
+  color: #b77e66;
+  background: #d5b28c;
+  transition: 0.5s ease-in-out;
+}
+/*--- end section 2 ---*/
+/*--- section 3 ---*/
+.thirdSec {
+  background-image: url(/images/backgroundSec3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0%;
+  height: 50vh;
+  position: relative;
+}
+
+.rect {
+  width: 534px;
+  height: 147px;
+  border-radius: 10px;
+  background: rgba(34, 27, 24, 0.6);
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  display: flex;
+  color: #fff;
+  font-family: "Irish Grover", Courier, monospace;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.horaire {
+  color: #fff;
+  width: 265px !important;
+  gap: 45px;
+  position: absolute;
+  display: flex;
+  right: 23%;
+  top: 30%;
+  flex-wrap: wrap;
+}
+.horaire p {
+  font-family: "Irish Grover", Courier, monospace;
+  font-size: 20px;
+}
+/*--- end section 3 ---*/
+/*--- section 4 ---*/
+.fourthSec {
+  background-image: url(/images/backgroundSec4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0%;
+  height: 100vh;
+  position: relative;
+  padding: 2%;
+}
+
+.fourthSec h2 {
+  color: #903711;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 3%;
+  -webkit-text-stroke: 1.5px rgb(255, 255, 255); 
+}
+
+.fourthSec a {
+  position: relative;
+  text-decoration: underline;
+  color: #9e5a3d;
+  font-size: 30px;
+  font-weight: 600;
+  left: 10%;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.card .c1 {
+  width: 260px;
+  height: 444px;
+  border-radius: 20px;
+  background: rgba(115, 74, 57, 0.9);
+}
+
+.card .c1 img {
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.card .c1 h4 {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.card .c1 p {
+  color: #fffada;
+  font-size: 15px;
+  margin: 15px;
+}
+
+.card .c1 .prx {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 35px;
+}
+/*--- end section 4 ---*/
+/*--- section 5 ---*/
+.fifthSec {
+  background-image: url(/images/backgroundSec5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.fifthSec h3 {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  top: 7%;
+}
+
+.cardCust {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.cardCust .c2 {
+  width: 379px;
+  height: 310px;
+  border-radius: 5px;
+  background: rgba(88, 49, 21, 0.57);
+  margin-top: 7%;
+}
+
+.cardCust .c2 h3 {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  padding: 10px;
+}
+
+.cardCust .c2 p {
+  color: #d3cece;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px;
+  text-align: center;
+  margin-top: 35px;
+}
+/*--- end section 5 ---*/
+/*--- section 6 ---*/
+.sixthSec {
+  background-color: #e3d9d5;
+  height: 60vh;
+  position: relative;
+}
+
+.map iframe {
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  top: 2.5%;
+  left: 2.5%;
+  border: 5px solid #471e22;
+}
+/*--- end section 6 ---*/
+/*------ about us page ------*/
+.aboutSec {
+  background-image: url(/images/bg-about.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.aboutSec .content {
+  padding: 5%;
+}
+
+.aboutSec .content p {
+  font-size: 20px;
+}
+
+.aboutSec .content h4 {
+  font-weight: 800;
+  font-size: 35px;
+  margin: 30px 0px 40px;
+}
+/*------ end about us page ------*/
+/*------ menu page ------*/
+.menuSec {
+  height: 100%;
+  background-color: #fffdef;
+}
+
+.card1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+.card1 .cMenu {
+  width: 260px;
+  height: 280px;
+  border-radius: 21px;
+  background: rgba(115, 74, 57, 0.9);
+  margin-top: 55px;
+}
+
+.card1 .cMenu img {
+  border-radius: 20px;
+  padding: 15px;
+  width: 100%;
+}
+
+.card1 .cMenu h4 {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card1 .cMenu .prxM {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15%;
+}
+/*------ end menu page ------*/
+/*------ product page ------*/
+.aboutSec .content .prod {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+.aboutSec .content .prod .titpar {
+  width: 60%;
+}
+
+.aboutSec .content .prod .titpar h3 {
+  font-size: 34px;
+  font-weight: 700;
+  padding: 15px 0px;
+}
+
+.aboutSec .content .prod .titpar p {
+  font-size: 25px;
+}
+
+.aboutSec .content .prod img {
+  width: 20%;
+  height: 167px;
+  border-radius: 22px;
+}
+/*------ end product page ------*/
+/*------ location page ------*/
+.mapLoc iframe {
+  width: 95%;
+  margin: 2% 2% 1%;
+}
+
+.loc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuSec .locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.menuSec .locations .cardloc {
+  width: 479px;
+  height: 442px;
+  border-radius: 20px;
+  background: rgba(115, 74, 57, 0.9);
+  margin: 50px;
+}
+
+.menuSec .locations .cardloc .loca {
+  width: 80%;
+  display: flex;
+  color: #fff;
+  justify-content: space-evenly;
+  font-size: 20px;
+  margin-left: 10%;
+}
+
+.menuSec .locations .cardloc .imgShop img {
+  width: 100%;
+  padding: 5%;
+}
+
+.moreInf {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+} 
+
+.information {
+  padding: 50px;
+}
+
+.btn-loc {
+  right: 13%;
+  width: 180px;
+  height: 44px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  background: #b77e66;
+  cursor: pointer;
+}
+
+.btn-loc:hover {
+  color: #b77e66;
+  background: #d5b28c;
+  transition: 0.5s ease-in-out;
+}
+
+/*------ end location page ------*/
+/*------ footer ------*/
+.foot {
+  background-image: url(/images/imagef.png);
+  background-size: cover;
+  height: 70vh;
+}
+.sousfoot {
+  background-color: black;
+  opacity: 0.7;
+  height: 70vh;
+}
+
+.cont {
+  display: flex;
+  width: 100%;
+  padding: 5%;
+  justify-content: space-around;
+  align-items: start;
+}
+.list a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin: 30px;
+  width: 33%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.anotherClass a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  width: 60%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
+}
+
+/* end footer */
