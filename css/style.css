@@ -341,34 +341,12 @@ form {
   height: 70vh;
 }
 
-.fifthSec h3::before {
-  content: "";
-  display: block;
-  width: 300px;
-  height: 2px;
-  background-color: #fff;
-  position: absolute;
-  right:  0;
-  top: 50%;
-}
-
 .fifthSec h3 {
   position: relative;
   color: #fff;
   text-align: center;
   font-size: 40px;
   top: 7%;
-}
-
-.fifthSec h3::after {
-  content: "";
-  display: block;
-  width: 300px;
-  height: 2px;
-  background-color: #fff;
-  position: absolute;
-  left: 0;
-  top: 50%;
 }
 
 .cardCust {
