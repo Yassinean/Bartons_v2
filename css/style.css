@@ -125,7 +125,7 @@ form {
 /*------ landing page ------*/
 /*--- section 1 ---*/
 .mainimg {
-  background-image: url(/images/background_main.png);
+  background-image: url(../images/background_main.png);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -174,7 +174,7 @@ form {
 /*--- end section 1 ---*/
 /*--- section 2 ---*/
 .secondSec {
-  background-image: url(/images/sect2.png);
+  background-image: url(../images/sect2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0%;
@@ -225,7 +225,7 @@ form {
 /*--- end section 2 ---*/
 /*--- section 3 ---*/
 .thirdSec {
-  background-image: url(/images/backgroundSec3.png);
+  background-image: url(../images/backgroundSec3.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0%;
@@ -269,7 +269,7 @@ form {
 /*--- end section 3 ---*/
 /*--- section 4 ---*/
 .fourthSec {
-  background-image: url(/images/backgroundSec4.png);
+  background-image: url(../images/backgroundSec4.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0%;
@@ -335,7 +335,7 @@ form {
 /*--- end section 4 ---*/
 /*--- section 5 ---*/
 .fifthSec {
-  background-image: url(/images/backgroundSec5.png);
+  background-image: url(../images/backgroundSec5.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vh;
@@ -398,7 +398,7 @@ form {
 /*--- end section 6 ---*/
 /*------ about us page ------*/
 .aboutSec {
-  background-image: url(/images/bg-about.png);
+  background-image: url(../images/bg-about.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -561,7 +561,7 @@ form {
 /*------ end location page ------*/
 /*------ footer ------*/
 .foot {
-  background-image: url(/images/imagef.png);
+  background-image: url(../images/imagef.png);
   background-size: cover;
   height: 70vh;
 }
