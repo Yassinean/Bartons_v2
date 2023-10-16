@@ -43,9 +43,3 @@ Lien Trello
 
 
 
-
-
-
-
-
-lien trello /* https://trello.com/invite/b/SNdT2jrZ/ATTId37fbe66650257d70dfcaf46ac35c346506558F0/brief2 */
